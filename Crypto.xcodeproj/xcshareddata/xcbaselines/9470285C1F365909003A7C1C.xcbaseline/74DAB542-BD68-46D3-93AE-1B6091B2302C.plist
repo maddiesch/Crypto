@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classNames</key>
+	<dict>
+		<key>FingerprintPerformanceTests</key>
+		<dict>
+			<key>testMD5Performance()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict/>
+			</dict>
+			<key>testSHA1Performance()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict/>
+			</dict>
+			<key>testSHA256Performance()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict/>
+			</dict>
+			<key>testSHA512Performance()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>FingerprintTests</key>
+		<dict>
+			<key>testMD5Performance()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.17392</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Aug 5, 2017, 3:00:37 PM</string>
+				</dict>
+			</dict>
+			<key>testSHA1Performance()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.11297</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Aug 5, 2017, 3:00:25 PM</string>
+				</dict>
+			</dict>
+			<key>testSHA256Performance()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.20265</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Aug 5, 2017, 3:00:27 PM</string>
+				</dict>
+			</dict>
+			<key>testSHA512Performance()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.14614</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Aug 5, 2017, 3:00:37 PM</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

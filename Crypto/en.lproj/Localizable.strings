@@ -1,0 +1,71 @@
+/**
+ * Localizable.strings
+ * Crypto
+ *
+ * Created by Skylar Schipper on 9/2/17.
+ * Copyright © 2017 Skylar Schipper. All rights reserved.
+ */
+
+//////////////////////////////
+/// Errors
+//////////////////////////////
+
+/**
+ *  RSA
+ */
+
+/* Data to encrypt is too big. Won't fit in the block size. */
+"crypto.errors.rsa.encrypt.data-too-big" = "Data too big.";
+
+/* Data being decrypted is too big for the key's block size */
+"crypto.errors.rsa.decrypt.data-too-big" = "Data is too big for the key's block size.";
+
+/* Key generation failed to generate a public key */
+"crypto.errors.rsa.key.generation.public" = "Failed to generate a public key.";
+
+/* Key generation failed to generate a private key */
+"crypto.errors.rsa.key.generation.private" = "Failed to generate a private key.";
+
+/* Can't derive public key from non-private key */
+"crypto.errors.rsa.key.copy.non-private" = "Can't copy public key from non-private key.";
+
+/* Failed to copy the pubblic key from the private key */
+"crypto.errors.rsa.key.copy.failed" = "Failed to copy public key.";
+
+/**
+ *  AES
+ */
+
+/* Failed to derive key from password */
+"crypto.errors.aes.key.derived-key-failed" = "Failed to create derived key.";
+
+
+/**
+ *  Data
+ */
+
+/* Failed to copy random bytes */
+"crypto.errors.data.random-copy-failed" = "Failed to copy bytes.";
+
+
+/**
+ *  Digest
+ */
+
+/* Failed to create the read stream */
+"crypto.digest.stream.create-failed" = "Failed to create read stream.";
+
+/* Failed to open the read stream */
+"crypto.digest.stream.open-failed" = "Failed to open read stream.";
+
+/* Failed to read from the stream */
+"crypto.digest.stream.read-failed" = "Failed to read from the stream.";
+
+/* Failed to create a hashing context */
+"crypto.digest.hashing.create-failed" = "Failed to create hashing context.";
+
+/* Failed to update the hashing context */
+"crypto.digest.hashing.updated-failed" = "Failed to update context.";
+
+/* Failed to finalize the hashing context */
+"crypto.digest.hashing.finalize-failed" = "Failed to fetch final result.";

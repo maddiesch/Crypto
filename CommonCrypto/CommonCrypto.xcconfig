@@ -1,0 +1,11 @@
+//
+//  CommonCrypto.xcconfig
+//  Crypto
+//
+//  Created by Skylar Schipper on 8/5/17.
+//  Copyright © 2017 Skylar Schipper. All rights reserved.
+//
+
+MODULEMAP_FILE[sdk=iphoneos*]        = $(SRCROOT)/CommonCrypto/iphoneos.modulemap
+MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/CommonCrypto/iphonesimulator.modulemap
+MODULEMAP_FILE[sdk=macosx*]          = $(SRCROOT)/CommonCrypto/macosx.modulemap
